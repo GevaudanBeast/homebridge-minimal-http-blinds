@@ -18,7 +18,7 @@ function MinimalisticHttpBlinds(log, config) {
 
     // Optional parameters: HTTP methods
     this.get_current_position_method = config.get_current_position_method || 'GET';
-    this.set_target_position_method  = config.set_target_position_method  || 'POST';
+    this.set_target_position_method  = config.set_target_position_method  || 'GET';
     this.get_current_state_method    = config.get_current_state_method    || 'GET';
 
     // Optional parameters: expected HTTP response codes
